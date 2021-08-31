@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-812479661/BiometricSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/-812479661/BiometricSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BiometricSystem.app.iml" filepath="$PROJECT_DIR$/.idea/modules/BiometricSystem.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-152802672/BiometricSystem.openCVLibrary343.iml" filepath="$PROJECT_DIR$/.idea/modules/-152802672/BiometricSystem.openCVLibrary343.iml" />
+    </modules>
+  </component>
+</project>

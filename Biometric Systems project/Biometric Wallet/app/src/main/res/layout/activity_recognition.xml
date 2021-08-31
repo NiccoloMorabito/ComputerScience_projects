@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    tools:context=".Recognition">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/tileview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000"/>-->/><!--
+        android:background="@color/transp"/>-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cambia Camera"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/switch_camera_rec"
+            ></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:id="@+id/start"
+            android:layout_below="@+id/switch_camera_rec"
+            android:layout_alignLeft="@+id/switch_camera_rec">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="50dp"
+            android:id="@+id/timer"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+
+            ></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/actual"
+            android:layout_marginRight="2dp"
+            android:layout_centerHorizontal="true">
+
+        </Button>
+        <org.opencv.android.JavaCameraView
+            android:id="@+id/javacameraview_rec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--
+        android:background="@color/transp"/>-->
+        </org.opencv.android.JavaCameraView>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

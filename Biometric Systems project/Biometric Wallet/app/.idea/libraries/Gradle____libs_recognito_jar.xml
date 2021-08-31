@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/recognito.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/recognito.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
